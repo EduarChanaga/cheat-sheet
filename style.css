@@ -1,0 +1,29 @@
+table{
+   
+    background: #ffffff;
+   
+    width: 25%;
+  }
+  
+  table tr {
+    border: 1px solid #363333;
+  }
+  
+  table td {
+    border: 2px solid #000;
+   
+   
+  }
+
+
+
+  @keyframes animation {
+    0% { opacity: 0.01; }
+    50% { opacity: 0.01; }
+    75% { opacity: 0.1; }
+    100% { opacity: 1; }
+}
+
+h1 {
+    animation: animation 2s infinite;
+}

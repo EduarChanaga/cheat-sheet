@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hojatrampa.css">
+</head>
+<body>
+    <h1><center>Tablas</center></h1>
+    <table style="font-size: 15pt" cellspacing="0" >
+        <tr>
+          <td class="uno" rowspan="4">Id</td>
+          <td class="dos">65d5fc2a8d655139061dffee</td>
+        </tr>
+        <tr>
+          <td class="uno">index</td>
+          <td class="dos">0</td>
+         
+        </tr>
+        <tr>
+          <td class="uno">guid</td>
+          <td class="dos">850cb375-5281-4b7f-b769-e8119877e3e9</td>
+         
+        </tr>
+        <tr>
+          <td class="uno">isActive</td>
+          <td class="dos">False</td>
+          
+        </tr>
+        <tr>
+          <td class="uno">balance</td>
+          <td class="dos">$2,647.81</td>
+        </tr>
+        <tr>
+            <td class="uno">picture</td>
+            <td class="dos">http://placehold.it/32x32yquot;</td>
+          </tr>
+          <tr>
+            <td class="uno">age</td>
+            <td class="dos">39</td>
+           
+          </tr>
+          <tr>
+            <td class="uno">eyeColor</td>
+            <td class="dos">green</td>
+           
+          </tr>
+          <tr>
+            <td class="uno">gender</td>
+            <td class="dos">male</td>
+            
+          </tr>
+          <tr>
+            <td class="uno">company</td>
+            <td class="dos">UNIWORLD</td>
+          </tr>  
+      </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h1><center>Formulario</center></h1>
+    <form action="" method="GET">
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" maxlength="50" required>
+        </div>
+        
+        <div>
+          <label for="Genero">Genero:</label>
+          <input type="radio" id="hombre" name="Genero" value="hombre" required>
+          <label for="hombre">Hombre</label>
+          <input type="radio" id="mujer" name="Genero" value="mujer" required>
+          <label for="mujer">Mujer</label>
+        </div>
+        <div>
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
+        <div>
+          <input type="checkbox" id="info" name="info" checked>
+          <label for="info">Deseo recibir información sobre novedades y ofertas</label>
+        </div>
+        <div>
+          <label for="poblacion">Población:</label>
+          <select id="poblacion" name="poblacion">
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Giron">Giron</option>
+            <option value="Floridablanca">Floridablanca</option>
+            <option value="Piedecuesta">Piedecuesta</option>
+          </select>
+        </div>
+        <div>
+          <label for="descripcion">Descripción:</label><br>
+          <textarea id="descripcion" name="descripcion" ></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+</body>
+</html>
