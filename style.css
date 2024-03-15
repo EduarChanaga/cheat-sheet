@@ -27,3 +27,15 @@ table{
 h1 {
     animation: animation 2s infinite;
 }
+
+
+
+
+.mi-div {
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.mi-div:hover {
+  scrollbar-width: auto;
+}
